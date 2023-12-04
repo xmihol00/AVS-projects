@@ -1,0 +1,7 @@
+,Relativní součet délek běhů
+separate_memory_vectorized,0.3058484078660877
+capture_and_add_vectorized,0.41767460397322426
+critical_section_vectorized,0.4391493457690477
+capture_and_add,0.9858516915988224
+separate_memory,0.9912711656781817
+critical_section,1.0
