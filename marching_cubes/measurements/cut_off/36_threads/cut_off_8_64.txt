@@ -1,4 +1,4 @@
-Schedule: -DPRINT_DEFINES -DVECTORIZED_SIMD=1 -DSEPARATE_MEMORY=1 -DCUT_OFF_VALUE=32
+Schedule: -DPRINT_DEFINES -DVECTORIZED_SIMD=1 -DSEPARATE_MEMORY=1 -DCUT_OFF_VALUE=8
 ======================== Marching Cubes Mesh Builder ==========================
 Mesh Builder:        Octree
 Input Field File:    ../data/bun_zipper_res1.pts
@@ -22,7 +22,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        135 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -50,7 +50,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        35 ms
+Elapsed Time:        34 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -64,7 +64,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        3898 ms
+Elapsed Time:        3904 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -78,7 +78,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        907 ms
+Elapsed Time:        901 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -176,7 +176,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        3905 ms
+Elapsed Time:        3911 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -190,7 +190,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        899 ms
+Elapsed Time:        900 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -274,230 +274,6 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        35 ms
-Mesh Triangle Count: 42476
-=========================== Writting Output File ==============================
-Output File Size:    5441 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      437645
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        3905 ms
-Mesh Triangle Count: 23756
-=========================== Writting Output File ==============================
-Output File Size:    3036 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      100250
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        899 ms
-Mesh Triangle Count: 23784
-=========================== Writting Output File ==============================
-Output File Size:    3034 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        206 ms
-Mesh Triangle Count: 23900
-=========================== Writting Output File ==============================
-Output File Size:    3042 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        50 ms
-Mesh Triangle Count: 23824
-=========================== Writting Output File ==============================
-Output File Size:    3029 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      35947
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        574 ms
-Mesh Triangle Count: 40520
-=========================== Writting Output File ==============================
-Output File Size:    5168 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      8171
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        135 ms
-Mesh Triangle Count: 40412
-=========================== Writting Output File ==============================
-Output File Size:    5153 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        43 ms
-Mesh Triangle Count: 40288
-=========================== Writting Output File ==============================
-Output File Size:    5129 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        36 ms
-Mesh Triangle Count: 42476
-=========================== Writting Output File ==============================
-Output File Size:    5441 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      437645
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        3908 ms
-Mesh Triangle Count: 23756
-=========================== Writting Output File ==============================
-Output File Size:    3036 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      100250
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        903 ms
-Mesh Triangle Count: 23784
-=========================== Writting Output File ==============================
-Output File Size:    3034 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        206 ms
-Mesh Triangle Count: 23900
-=========================== Writting Output File ==============================
-Output File Size:    3042 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        51 ms
-Mesh Triangle Count: 23824
-=========================== Writting Output File ==============================
-Output File Size:    3029 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      35947
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        574 ms
-Mesh Triangle Count: 40520
-=========================== Writting Output File ==============================
-Output File Size:    5168 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      8171
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        135 ms
-Mesh Triangle Count: 40412
-=========================== Writting Output File ==============================
-Output File Size:    5153 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        45 ms
-Mesh Triangle Count: 40288
-=========================== Writting Output File ==============================
-Output File Size:    5129 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   36
 Elapsed Time:        36 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
@@ -526,119 +302,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        899 ms
-Mesh Triangle Count: 23784
-=========================== Writting Output File ==============================
-Output File Size:    3034 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        206 ms
-Mesh Triangle Count: 23900
-=========================== Writting Output File ==============================
-Output File Size:    3042 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        50 ms
-Mesh Triangle Count: 23824
-=========================== Writting Output File ==============================
-Output File Size:    3029 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      35947
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        574 ms
-Mesh Triangle Count: 40520
-=========================== Writting Output File ==============================
-Output File Size:    5168 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      8171
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        135 ms
-Mesh Triangle Count: 40412
-=========================== Writting Output File ==============================
-Output File Size:    5153 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        42 ms
-Mesh Triangle Count: 40288
-=========================== Writting Output File ==============================
-Output File Size:    5129 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        36 ms
-Mesh Triangle Count: 42476
-=========================== Writting Output File ==============================
-Output File Size:    5441 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      437645
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        3906 ms
-Mesh Triangle Count: 23756
-=========================== Writting Output File ==============================
-Output File Size:    3036 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      100250
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        898 ms
+Elapsed Time:        904 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -722,118 +386,6 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        35 ms
-Mesh Triangle Count: 42476
-=========================== Writting Output File ==============================
-Output File Size:    5441 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      437645
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        3923 ms
-Mesh Triangle Count: 23756
-=========================== Writting Output File ==============================
-Output File Size:    3036 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      100250
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        899 ms
-Mesh Triangle Count: 23784
-=========================== Writting Output File ==============================
-Output File Size:    3034 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        206 ms
-Mesh Triangle Count: 23900
-=========================== Writting Output File ==============================
-Output File Size:    3042 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        50 ms
-Mesh Triangle Count: 23824
-=========================== Writting Output File ==============================
-Output File Size:    3029 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      35947
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        573 ms
-Mesh Triangle Count: 40520
-=========================== Writting Output File ==============================
-Output File Size:    5168 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      8171
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        136 ms
-Mesh Triangle Count: 40412
-=========================== Writting Output File ==============================
-Output File Size:    5153 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        51 ms
-Mesh Triangle Count: 40288
-=========================== Writting Output File ==============================
-Output File Size:    5129 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   36
 Elapsed Time:        36 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
@@ -848,7 +400,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        3905 ms
+Elapsed Time:        3908 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -862,7 +414,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        898 ms
+Elapsed Time:        903 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -876,119 +428,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        207 ms
-Mesh Triangle Count: 23900
-=========================== Writting Output File ==============================
-Output File Size:    3042 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        50 ms
-Mesh Triangle Count: 23824
-=========================== Writting Output File ==============================
-Output File Size:    3029 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      35947
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        575 ms
-Mesh Triangle Count: 40520
-=========================== Writting Output File ==============================
-Output File Size:    5168 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      8171
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        135 ms
-Mesh Triangle Count: 40412
-=========================== Writting Output File ==============================
-Output File Size:    5153 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        42 ms
-Mesh Triangle Count: 40288
-=========================== Writting Output File ==============================
-Output File Size:    5129 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        44 ms
-Mesh Triangle Count: 42476
-=========================== Writting Output File ==============================
-Output File Size:    5441 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res1.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      437645
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        3906 ms
-Mesh Triangle Count: 23756
-=========================== Writting Output File ==============================
-Output File Size:    3036 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res2.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      100250
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        902 ms
-Mesh Triangle Count: 23784
-=========================== Writting Output File ==============================
-Output File Size:    3034 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        Octree
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    tree.obj
-Grid Size:           64
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   36
-Elapsed Time:        207 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -1058,7 +498,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        36 ms
+Elapsed Time:        35 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -1086,7 +526,567 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        893 ms
+Elapsed Time:        897 ms
+Mesh Triangle Count: 23784
+=========================== Writting Output File ==============================
+Output File Size:    3034 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      22998
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        206 ms
+Mesh Triangle Count: 23900
+=========================== Writting Output File ==============================
+Output File Size:    3042 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      5205
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        50 ms
+Mesh Triangle Count: 23824
+=========================== Writting Output File ==============================
+Output File Size:    3029 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      35947
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        574 ms
+Mesh Triangle Count: 40520
+=========================== Writting Output File ==============================
+Output File Size:    5168 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      8171
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        135 ms
+Mesh Triangle Count: 40412
+=========================== Writting Output File ==============================
+Output File Size:    5153 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        41 ms
+Mesh Triangle Count: 40288
+=========================== Writting Output File ==============================
+Output File Size:    5129 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      453
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        36 ms
+Mesh Triangle Count: 42476
+=========================== Writting Output File ==============================
+Output File Size:    5441 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      437645
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        3906 ms
+Mesh Triangle Count: 23756
+=========================== Writting Output File ==============================
+Output File Size:    3036 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      100250
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        903 ms
+Mesh Triangle Count: 23784
+=========================== Writting Output File ==============================
+Output File Size:    3034 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      22998
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        207 ms
+Mesh Triangle Count: 23900
+=========================== Writting Output File ==============================
+Output File Size:    3042 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      5205
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        50 ms
+Mesh Triangle Count: 23824
+=========================== Writting Output File ==============================
+Output File Size:    3029 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      35947
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        574 ms
+Mesh Triangle Count: 40520
+=========================== Writting Output File ==============================
+Output File Size:    5168 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      8171
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        135 ms
+Mesh Triangle Count: 40412
+=========================== Writting Output File ==============================
+Output File Size:    5153 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        42 ms
+Mesh Triangle Count: 40288
+=========================== Writting Output File ==============================
+Output File Size:    5129 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      453
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        36 ms
+Mesh Triangle Count: 42476
+=========================== Writting Output File ==============================
+Output File Size:    5441 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      437645
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        3906 ms
+Mesh Triangle Count: 23756
+=========================== Writting Output File ==============================
+Output File Size:    3036 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      100250
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        902 ms
+Mesh Triangle Count: 23784
+=========================== Writting Output File ==============================
+Output File Size:    3034 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      22998
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        206 ms
+Mesh Triangle Count: 23900
+=========================== Writting Output File ==============================
+Output File Size:    3042 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      5205
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        50 ms
+Mesh Triangle Count: 23824
+=========================== Writting Output File ==============================
+Output File Size:    3029 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      35947
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        573 ms
+Mesh Triangle Count: 40520
+=========================== Writting Output File ==============================
+Output File Size:    5168 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      8171
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        135 ms
+Mesh Triangle Count: 40412
+=========================== Writting Output File ==============================
+Output File Size:    5153 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        40 ms
+Mesh Triangle Count: 40288
+=========================== Writting Output File ==============================
+Output File Size:    5129 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      453
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        36 ms
+Mesh Triangle Count: 42476
+=========================== Writting Output File ==============================
+Output File Size:    5441 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      437645
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        3906 ms
+Mesh Triangle Count: 23756
+=========================== Writting Output File ==============================
+Output File Size:    3036 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      100250
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        900 ms
+Mesh Triangle Count: 23784
+=========================== Writting Output File ==============================
+Output File Size:    3034 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      22998
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        206 ms
+Mesh Triangle Count: 23900
+=========================== Writting Output File ==============================
+Output File Size:    3042 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      5205
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        50 ms
+Mesh Triangle Count: 23824
+=========================== Writting Output File ==============================
+Output File Size:    3029 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      35947
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        573 ms
+Mesh Triangle Count: 40520
+=========================== Writting Output File ==============================
+Output File Size:    5168 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      8171
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        135 ms
+Mesh Triangle Count: 40412
+=========================== Writting Output File ==============================
+Output File Size:    5153 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        41 ms
+Mesh Triangle Count: 40288
+=========================== Writting Output File ==============================
+Output File Size:    5129 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      453
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        36 ms
+Mesh Triangle Count: 42476
+=========================== Writting Output File ==============================
+Output File Size:    5441 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      437645
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        3906 ms
+Mesh Triangle Count: 23756
+=========================== Writting Output File ==============================
+Output File Size:    3036 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      100250
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        903 ms
+Mesh Triangle Count: 23784
+=========================== Writting Output File ==============================
+Output File Size:    3034 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      22998
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        206 ms
+Mesh Triangle Count: 23900
+=========================== Writting Output File ==============================
+Output File Size:    3042 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      5205
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        50 ms
+Mesh Triangle Count: 23824
+=========================== Writting Output File ==============================
+Output File Size:    3029 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      35947
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        574 ms
+Mesh Triangle Count: 40520
+=========================== Writting Output File ==============================
+Output File Size:    5168 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      8171
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        135 ms
+Mesh Triangle Count: 40412
+=========================== Writting Output File ==============================
+Output File Size:    5153 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        40 ms
+Mesh Triangle Count: 40288
+=========================== Writting Output File ==============================
+Output File Size:    5129 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/bun_zipper_res4.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      453
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        35 ms
+Mesh Triangle Count: 42476
+=========================== Writting Output File ==============================
+Output File Size:    5441 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res1.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      437645
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        3905 ms
+Mesh Triangle Count: 23756
+=========================== Writting Output File ==============================
+Output File Size:    3036 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        Octree
+Input Field File:    ../data/dragon_vrip_res2.pts
+Output Mesh File:    tree.obj
+Grid Size:           64
+Iso Level:           0.15
+Field Elements:      100250
+============================= Building the Mesh ===============================
+Number of Threads:   36
+Elapsed Time:        902 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB

@@ -1,3 +1,4 @@
+
 ======================== Marching Cubes Mesh Builder ==========================
 Mesh Builder:        OpenMP Loop
 Input Field File:    ../data/bun_zipper_res1.pts
@@ -7,7 +8,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   4
-Elapsed Time:        13896 ms
+Elapsed Time:        13900 ms
 Mesh Triangle Count: 0
 =========================== Writting Output File ==============================
 Output File Size:    0 KB
@@ -21,7 +22,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   4
-Elapsed Time:        169999 ms
+Elapsed Time:        169977 ms
 Mesh Triangle Count: 0
 =========================== Writting Output File ==============================
 Output File Size:    0 KB
@@ -35,7 +36,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   4
-Elapsed Time:        13899 ms
+Elapsed Time:        13902 ms
 Mesh Triangle Count: 0
 =========================== Writting Output File ==============================
 Output File Size:    0 KB
@@ -49,7 +50,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   4
-Elapsed Time:        169953 ms
+Elapsed Time:        169951 ms
 Mesh Triangle Count: 0
 =========================== Writting Output File ==============================
 Output File Size:    0 KB
@@ -77,7 +78,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   4
-Elapsed Time:        169948 ms
+Elapsed Time:        169966 ms
 Mesh Triangle Count: 0
 =========================== Writting Output File ==============================
 Output File Size:    0 KB
@@ -91,7 +92,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   4
-Elapsed Time:        13895 ms
+Elapsed Time:        13896 ms
 Mesh Triangle Count: 0
 =========================== Writting Output File ==============================
 Output File Size:    0 KB
@@ -105,7 +106,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   4
-Elapsed Time:        169975 ms
+Elapsed Time:        169968 ms
 Mesh Triangle Count: 0
 =========================== Writting Output File ==============================
 Output File Size:    0 KB
@@ -133,7 +134,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   4
-Elapsed Time:        169954 ms
+Elapsed Time:        169984 ms
 Mesh Triangle Count: 0
 =========================== Writting Output File ==============================
 Output File Size:    0 KB

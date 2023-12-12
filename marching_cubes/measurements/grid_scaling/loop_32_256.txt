@@ -1,3 +1,4 @@
+
 ======================== Marching Cubes Mesh Builder ==========================
 Mesh Builder:        OpenMP Loop
 Input Field File:    ../data/bun_zipper_res4.pts
@@ -7,7 +8,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        1555 ms
+Elapsed Time:        1556 ms
 Mesh Triangle Count: 694612
 =========================== Writting Output File ==============================
 Output File Size:    91528 KB
@@ -21,287 +22,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        16366 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1538 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16411 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1534 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16355 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1553 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16349 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1548 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16345 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1530 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16370 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1559 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16360 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1529 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16393 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1540 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16386 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1550 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16373 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1544 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16360 ms
+Elapsed Time:        16471 ms
 Mesh Triangle Count: 393276
 =========================== Writting Output File ==============================
 Output File Size:    51400 KB
@@ -315,7 +36,63 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        5884 ms
+Elapsed Time:        5893 ms
+Mesh Triangle Count: 655500
+=========================== Writting Output File ==============================
+Output File Size:    86151 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        OpenMP Loop
+Input Field File:    ../data/dragon_vrip_res3.pts
+Output Mesh File:    loop.obj
+Grid Size:           256
+Iso Level:           0.15
+Field Elements:      22998
+============================= Building the Mesh ===============================
+Number of Threads:   32
+Elapsed Time:        71403 ms
+Mesh Triangle Count: 392556
+=========================== Writting Output File ==============================
+Output File Size:    51313 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        OpenMP Loop
+Input Field File:    ../data/bun_zipper_res4.pts
+Output Mesh File:    loop.obj
+Grid Size:           256
+Iso Level:           0.15
+Field Elements:      453
+============================= Building the Mesh ===============================
+Number of Threads:   32
+Elapsed Time:        1542 ms
+Mesh Triangle Count: 694612
+=========================== Writting Output File ==============================
+Output File Size:    91528 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        OpenMP Loop
+Input Field File:    ../data/dragon_vrip_res4.pts
+Output Mesh File:    loop.obj
+Grid Size:           256
+Iso Level:           0.15
+Field Elements:      5205
+============================= Building the Mesh ===============================
+Number of Threads:   32
+Elapsed Time:        16363 ms
+Mesh Triangle Count: 393276
+=========================== Writting Output File ==============================
+Output File Size:    51400 KB
+=================================== DONE ======================================
+======================== Marching Cubes Mesh Builder ==========================
+Mesh Builder:        OpenMP Loop
+Input Field File:    ../data/bun_zipper_res3.pts
+Output Mesh File:    loop.obj
+Grid Size:           256
+Iso Level:           0.15
+Field Elements:      1889
+============================= Building the Mesh ===============================
+Number of Threads:   32
+Elapsed Time:        5894 ms
 Mesh Triangle Count: 655500
 =========================== Writting Output File ==============================
 Output File Size:    86151 KB
@@ -343,7 +120,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        1533 ms
+Elapsed Time:        1547 ms
 Mesh Triangle Count: 694612
 =========================== Writting Output File ==============================
 Output File Size:    91528 KB
@@ -357,7 +134,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        16346 ms
+Elapsed Time:        16370 ms
 Mesh Triangle Count: 393276
 =========================== Writting Output File ==============================
 Output File Size:    51400 KB
@@ -371,7 +148,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        5886 ms
+Elapsed Time:        5889 ms
 Mesh Triangle Count: 655500
 =========================== Writting Output File ==============================
 Output File Size:    86151 KB
@@ -385,7 +162,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        71325 ms
+Elapsed Time:        71420 ms
 Mesh Triangle Count: 392556
 =========================== Writting Output File ==============================
 Output File Size:    51313 KB
@@ -399,7 +176,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        1543 ms
+Elapsed Time:        1548 ms
 Mesh Triangle Count: 694612
 =========================== Writting Output File ==============================
 Output File Size:    91528 KB
@@ -413,7 +190,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        16389 ms
+Elapsed Time:        16422 ms
 Mesh Triangle Count: 393276
 =========================== Writting Output File ==============================
 Output File Size:    51400 KB
@@ -427,7 +204,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        5884 ms
+Elapsed Time:        5890 ms
 Mesh Triangle Count: 655500
 =========================== Writting Output File ==============================
 Output File Size:    86151 KB
@@ -441,7 +218,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        71340 ms
+Elapsed Time:        71415 ms
 Mesh Triangle Count: 392556
 =========================== Writting Output File ==============================
 Output File Size:    51313 KB
@@ -455,343 +232,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        1532 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16372 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        5883 ms
-Mesh Triangle Count: 655500
-=========================== Writting Output File ==============================
-Output File Size:    86151 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        71301 ms
-Mesh Triangle Count: 392556
-=========================== Writting Output File ==============================
-Output File Size:    51313 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1541 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16401 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        5885 ms
-Mesh Triangle Count: 655500
-=========================== Writting Output File ==============================
-Output File Size:    86151 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        71376 ms
-Mesh Triangle Count: 392556
-=========================== Writting Output File ==============================
-Output File Size:    51313 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1553 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16358 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        5885 ms
-Mesh Triangle Count: 655500
-=========================== Writting Output File ==============================
-Output File Size:    86151 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        71343 ms
-Mesh Triangle Count: 392556
-=========================== Writting Output File ==============================
-Output File Size:    51313 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1536 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16404 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        5888 ms
-Mesh Triangle Count: 655500
-=========================== Writting Output File ==============================
-Output File Size:    86151 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        71370 ms
-Mesh Triangle Count: 392556
-=========================== Writting Output File ==============================
-Output File Size:    51313 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1566 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16361 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        5887 ms
-Mesh Triangle Count: 655500
-=========================== Writting Output File ==============================
-Output File Size:    86151 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        71376 ms
-Mesh Triangle Count: 392556
-=========================== Writting Output File ==============================
-Output File Size:    51313 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1528 ms
-Mesh Triangle Count: 694612
-=========================== Writting Output File ==============================
-Output File Size:    91528 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      5205
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        16360 ms
-Mesh Triangle Count: 393276
-=========================== Writting Output File ==============================
-Output File Size:    51400 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      1889
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        5888 ms
-Mesh Triangle Count: 655500
-=========================== Writting Output File ==============================
-Output File Size:    86151 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/dragon_vrip_res3.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      22998
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        71322 ms
-Mesh Triangle Count: 392556
-=========================== Writting Output File ==============================
-Output File Size:    51313 KB
-=================================== DONE ======================================
-======================== Marching Cubes Mesh Builder ==========================
-Mesh Builder:        OpenMP Loop
-Input Field File:    ../data/bun_zipper_res4.pts
-Output Mesh File:    loop.obj
-Grid Size:           256
-Iso Level:           0.15
-Field Elements:      453
-============================= Building the Mesh ===============================
-Number of Threads:   32
-Elapsed Time:        1543 ms
+Elapsed Time:        1542 ms
 Mesh Triangle Count: 694612
 =========================== Writting Output File ==============================
 Output File Size:    91528 KB
@@ -819,7 +260,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        5886 ms
+Elapsed Time:        5899 ms
 Mesh Triangle Count: 655500
 =========================== Writting Output File ==============================
 Output File Size:    86151 KB
@@ -833,7 +274,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   32
-Elapsed Time:        71322 ms
+Elapsed Time:        71503 ms
 Mesh Triangle Count: 392556
 =========================== Writting Output File ==============================
 Output File Size:    51313 KB
