@@ -8,7 +8,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1579 ms
+Elapsed Time:        573 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -22,7 +22,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        362 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -36,7 +36,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        86 ms
+Elapsed Time:        35 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -50,7 +50,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        25 ms
+Elapsed Time:        15 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -64,7 +64,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19810 ms
+Elapsed Time:        3896 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -78,7 +78,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4498 ms
+Elapsed Time:        902 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -92,7 +92,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1013 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -106,7 +106,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        233 ms
+Elapsed Time:        50 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -120,7 +120,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1579 ms
+Elapsed Time:        576 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -134,7 +134,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        363 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -148,7 +148,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        85 ms
+Elapsed Time:        35 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -162,7 +162,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        23 ms
+Elapsed Time:        13 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -176,7 +176,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19750 ms
+Elapsed Time:        3900 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -190,7 +190,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4546 ms
+Elapsed Time:        897 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -204,7 +204,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1012 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -218,7 +218,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        232 ms
+Elapsed Time:        49 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -232,7 +232,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1579 ms
+Elapsed Time:        573 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -246,7 +246,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        363 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -260,7 +260,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        86 ms
+Elapsed Time:        35 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -274,7 +274,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        24 ms
+Elapsed Time:        12 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -288,7 +288,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19803 ms
+Elapsed Time:        3897 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -302,7 +302,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4500 ms
+Elapsed Time:        905 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -316,7 +316,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1012 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -330,7 +330,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        237 ms
+Elapsed Time:        49 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -344,7 +344,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1578 ms
+Elapsed Time:        573 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -358,7 +358,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        365 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -372,7 +372,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        85 ms
+Elapsed Time:        35 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -386,7 +386,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        24 ms
+Elapsed Time:        12 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -400,7 +400,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19818 ms
+Elapsed Time:        3896 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -414,7 +414,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4500 ms
+Elapsed Time:        902 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -428,7 +428,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1012 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -442,7 +442,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        233 ms
+Elapsed Time:        50 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -456,7 +456,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1580 ms
+Elapsed Time:        572 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -470,7 +470,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        363 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -484,7 +484,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        85 ms
+Elapsed Time:        35 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -498,7 +498,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        23 ms
+Elapsed Time:        12 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -512,7 +512,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19853 ms
+Elapsed Time:        3894 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -526,7 +526,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4494 ms
+Elapsed Time:        902 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -540,7 +540,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1012 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -554,7 +554,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        233 ms
+Elapsed Time:        50 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -568,7 +568,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1568 ms
+Elapsed Time:        573 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -582,7 +582,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        365 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -596,7 +596,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        85 ms
+Elapsed Time:        34 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -610,7 +610,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        24 ms
+Elapsed Time:        14 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -624,7 +624,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19796 ms
+Elapsed Time:        3896 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -638,7 +638,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4498 ms
+Elapsed Time:        902 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -652,7 +652,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1012 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -666,7 +666,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        233 ms
+Elapsed Time:        49 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -680,7 +680,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1581 ms
+Elapsed Time:        573 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -694,7 +694,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        363 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -708,7 +708,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        85 ms
+Elapsed Time:        34 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -722,7 +722,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        24 ms
+Elapsed Time:        12 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -736,7 +736,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19819 ms
+Elapsed Time:        3899 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -750,7 +750,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4494 ms
+Elapsed Time:        907 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -764,7 +764,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1011 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -778,7 +778,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        230 ms
+Elapsed Time:        49 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -792,7 +792,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1578 ms
+Elapsed Time:        574 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -806,7 +806,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        362 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -820,7 +820,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        85 ms
+Elapsed Time:        34 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -834,7 +834,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        24 ms
+Elapsed Time:        19 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -848,7 +848,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19870 ms
+Elapsed Time:        3899 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -862,7 +862,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4450 ms
+Elapsed Time:        897 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -876,7 +876,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1012 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -890,7 +890,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        233 ms
+Elapsed Time:        50 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -904,7 +904,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1579 ms
+Elapsed Time:        573 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -918,7 +918,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        362 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -932,7 +932,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        85 ms
+Elapsed Time:        33 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -946,7 +946,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        23 ms
+Elapsed Time:        12 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -960,7 +960,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19834 ms
+Elapsed Time:        3906 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -974,7 +974,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4497 ms
+Elapsed Time:        898 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -988,7 +988,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1012 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -1002,7 +1002,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        233 ms
+Elapsed Time:        50 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
@@ -1016,7 +1016,7 @@ Iso Level:           0.15
 Field Elements:      35947
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1582 ms
+Elapsed Time:        573 ms
 Mesh Triangle Count: 40520
 =========================== Writting Output File ==============================
 Output File Size:    5168 KB
@@ -1030,7 +1030,7 @@ Iso Level:           0.15
 Field Elements:      8171
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        362 ms
+Elapsed Time:        134 ms
 Mesh Triangle Count: 40412
 =========================== Writting Output File ==============================
 Output File Size:    5153 KB
@@ -1044,7 +1044,7 @@ Iso Level:           0.15
 Field Elements:      1889
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        86 ms
+Elapsed Time:        34 ms
 Mesh Triangle Count: 40288
 =========================== Writting Output File ==============================
 Output File Size:    5129 KB
@@ -1058,7 +1058,7 @@ Iso Level:           0.15
 Field Elements:      453
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        24 ms
+Elapsed Time:        17 ms
 Mesh Triangle Count: 42476
 =========================== Writting Output File ==============================
 Output File Size:    5441 KB
@@ -1072,7 +1072,7 @@ Iso Level:           0.15
 Field Elements:      437645
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        19895 ms
+Elapsed Time:        3896 ms
 Mesh Triangle Count: 23756
 =========================== Writting Output File ==============================
 Output File Size:    3036 KB
@@ -1086,7 +1086,7 @@ Iso Level:           0.15
 Field Elements:      100250
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        4508 ms
+Elapsed Time:        904 ms
 Mesh Triangle Count: 23784
 =========================== Writting Output File ==============================
 Output File Size:    3034 KB
@@ -1100,7 +1100,7 @@ Iso Level:           0.15
 Field Elements:      22998
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        1012 ms
+Elapsed Time:        206 ms
 Mesh Triangle Count: 23900
 =========================== Writting Output File ==============================
 Output File Size:    3042 KB
@@ -1114,7 +1114,7 @@ Iso Level:           0.15
 Field Elements:      5205
 ============================= Building the Mesh ===============================
 Number of Threads:   36
-Elapsed Time:        233 ms
+Elapsed Time:        50 ms
 Mesh Triangle Count: 23824
 =========================== Writting Output File ==============================
 Output File Size:    3029 KB
