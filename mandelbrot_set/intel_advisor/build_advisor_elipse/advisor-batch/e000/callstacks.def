@@ -1,0 +1,72 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	     22272	    0	      0	                                  _start	/home/xmihol00/proj01/build_advisor/mandelbrot	22272	47	0	4	0	0	0	0	0	0	0	0
+         2	        -1	     22317	    0	      0	                                  _start	/home/xmihol00/proj01/build_advisor/mandelbrot	22272	47	0	4	0	0	0	0	0	0	0	0
+         3	        25	    144530	    1	      1	     [Loop@0x23404 in __libc_start_main]	/lib64/libc.so.6	144388,144632	230,102	0	1	0	0	0	0	0	0	0	0
+         4	        27	    485265	    0	      0	evaluateCalculator<BatchMandelCalculator>	/home/xmihol00/proj01/build_advisor/mandelbrot	485243,485259,488416,488607	12,641,10,342	0	5	0	1	0	0	0	0	0	0
+         5	        30	     24176	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24176	15	24191	7	0	0	0	0	0	0	0	0
+         6	        36	     24182	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24176	15	24191	7	0	0	0	0	0	0	0	0
+         7	        27	    485302	    0	      0	evaluateCalculator<BatchMandelCalculator>	/home/xmihol00/proj01/build_advisor/mandelbrot	485243,485259,488416,488607	12,641,10,342	0	5	0	1	0	0	0	0	0	0
+         8	         7	     28581	    0	      0	BatchMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	25360	3232	0	9	0	0	0	0	0	0	0	0
+         9	        44	     28933	    1	      0	[Loop at line 209 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	28910	78	28988	10	0	0	0	0	0	0	0	0
+        10	         9	     37552	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	37424	1840	0	13	0	0	0	0	0	0	0	0
+        11	        44	     28953	    1	      0	[Loop at line 209 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	28910	78	28988	10	0	0	0	0	0	0	0	0
+        12	         9	     37883	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	37424	1840	0	13	0	0	0	0	0	0	0	0
+        13	        44	     28960	    1	      0	[Loop at line 209 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	28910	78	28988	10	0	0	0	0	0	0	0	0
+        14	        51	     37290	    1	      0	[Loop at line 138 in BatchMandelCalculator::batchKernel<(int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	36896	521	30927,37417	15	0	0	0	0	0	0	0	0
+        15	        55	     29382	    1	      0	[Loop at line 239 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	29316	93	29409	19	0	0	0	0	0	0	0	0
+        16	        15	     37785	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	37424	1840	0	13	0	0	0	0	0	0	0	0
+        17	        15	     37864	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	37424	1840	0	13	0	0	0	0	0	0	0	0
+        18	        15	     37535	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	37424	1840	0	13	0	0	0	0	0	0	0	0
+        19	        15	     38335	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	37424	1840	0	13	0	0	0	0	0	0	0	0
+        20	        60	     36525	    1	      0	[Loop at line 138 in BatchMandelCalculator::batchKernel<(int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	36358	521	32421,36879	21	0	0	0	0	0	0	0	0
+        21	        66	     31248	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	31089,31121,36346	6,1300,538	0	22	0	1	0	0	0	0	0	0
+        22	        27	    485899	    0	      0	evaluateCalculator<BatchMandelCalculator>	/home/xmihol00/proj01/build_advisor/mandelbrot	485243,485259,488416,488607	12,641,10,342	0	5	0	1	0	0	0	0	0	0
+        23	        22	     25247	    0	      0	BatchMandelCalculator::~BatchMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	25232	64	0	25	0	0	0	0	0	0	0	0
+        24	        23	   1013675	    0	      1	                                  munmap	/lib64/libc.so.6	1013664	37	0	3	0	0	0	0	0	0	0	0
+        25	         2	    144388	    0	      1	                       __libc_start_main	/lib64/libc.so.6	144288	446	0	2	0	0	0	0	0	0	0	0
+        26	         2	    144530	    0	      1	                       __libc_start_main	/lib64/libc.so.6	144288	446	0	2	0	0	0	0	0	0	0	0
+        27	         3	    485243	    0	      0	                                    main	/home/xmihol00/proj01/build_advisor/mandelbrot	475184	17696	0	6	0	0	0	0	0	0	0	0
+        28	         3	    485265	    0	      0	                                    main	/home/xmihol00/proj01/build_advisor/mandelbrot	475184	17696	0	6	0	0	0	0	0	0	0	0
+        29	         4	     24176	    0	      0	BatchMandelCalculator::BatchMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	23696	768	0	8	0	0	0	0	0	0	0	0
+        30	        29	     24176	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24130,24176,24208	12,15,15	24142,24191,24223	38	0	0	0	0	0	0	0	0
+        31	         4	     24176	    0	      0	BatchMandelCalculator::BatchMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	23696	768	0	8	0	0	0	0	0	0	0	0
+        32	        30	     24176	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24176	15	24191	7	0	0	0	0	0	0	0	0
+        33	        30	     24131	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24130	12	0	26	0	0	0	0	0	0	0	0
+        34	        30	     24177	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24176	15	24191	7	0	0	0	0	0	0	0	0
+        35	        30	     24209	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24208	15	24223	27	0	0	0	0	0	0	0	0
+        36	        29	     24182	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24130,24176,24208	12,15,15	24142,24191,24223	38	0	0	0	0	0	0	0	0
+        37	         4	     24182	    0	      0	BatchMandelCalculator::BatchMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	23696	768	0	8	0	0	0	0	0	0	0	0
+        38	        36	     24176	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24176	15	24191	7	0	0	0	0	0	0	0	0
+        39	        36	     24131	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24130	12	0	26	0	0	0	0	0	0	0	0
+        40	        36	     24177	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24176	15	24191	7	0	0	0	0	0	0	0	0
+        41	        36	     24209	    1	      0	[Loop at line 35 in BatchMandelCalculator::BatchMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	24208	15	24223	27	0	0	0	0	0	0	0	0
+        42	         3	    485302	    0	      0	                                    main	/home/xmihol00/proj01/build_advisor/mandelbrot	475184	17696	0	6	0	0	0	0	0	0	0	0
+        43	         8	     28833	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        44	        43	     28910	    1	      0	[Loop at line 204 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	28833	212	29045	12	0	0	0	0	0	0	0	0
+        45	         8	     28933	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        46	         8	     28953	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        47	         8	     28960	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        48	         8	     29120	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        49	        48	     29600	    1	      0	[Loop at line 225 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	29120,36884	1882,538	31002	18	0	0	0	0	0	0	0	0
+        50	        49	     29080	    1	      0	[Loop at line 254 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	29600,36884	1363,538	30963	17	0	0	0	0	0	0	0	0
+        51	        50	     36896	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	29080,29521,29627,36884	20,6,1300,540	0	16	0	1	0	0	0	0	0	0
+        52	        50	     37290	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	29080,29521,29627,36884	20,6,1300,540	0	16	0	1	0	0	0	0	0	0
+        53	         8	     37290	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        54	        14	     36896	    1	      0	[Loop at line 143 in BatchMandelCalculator::batchKernel<(int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	0,36896	0,0	0	14	0	0	0	0	0	0	0	0
+        55	        48	     29316	    1	      0	[Loop at line 225 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	29120,36884	1882,538	31002	18	0	0	0	0	0	0	0	0
+        56	         8	     29382	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        57	         8	     31059	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        58	        57	     31095	    1	      0	[Loop at line 271 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	31059,35274	4191,1610	35250	24	0	0	0	0	0	0	0	0
+        59	        58	     31089	    1	      0	[Loop at line 281 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	31095,36346	1363,538	32458	23	0	0	0	0	0	0	0	0
+        60	        59	     36358	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	31089,31121,36346	6,1300,538	0	22	0	1	0	0	0	0	0	0
+        61	        59	     36525	    0	      0	BatchMandelCalculator::batchKernel<(int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	31089,31121,36346	6,1300,538	0	22	0	1	0	0	0	0	0	0
+        62	         8	     36525	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        63	        20	     36358	    1	      0	[Loop at line 143 in BatchMandelCalculator::batchKernel<(int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	0,36358	0,0	0	20	0	0	0	0	0	0	0	0
+        64	         8	     31059	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        65	        64	     31095	    1	      0	[Loop at line 271 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	31059,35274	4191,1610	35250	24	0	0	0	0	0	0	0	0
+        66	        65	     31089	    1	      0	[Loop at line 281 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	31095,36346	1363,538	32458	23	0	0	0	0	0	0	0	0
+        67	        65	     31248	    1	      0	[Loop at line 281 in BatchMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	31095,36346	1363,538	32458	23	0	0	0	0	0	0	0	0
+        68	         8	     31248	    0	      0	BatchMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	28688	8736	0	11	0	0	0	0	0	0	0	0
+        69	         3	    485899	    0	      0	                                    main	/home/xmihol00/proj01/build_advisor/mandelbrot	475184	17696	0	6	0	0	0	0	0	0	0	0
+        70	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	40	0	0	0	0	0	0	0	0

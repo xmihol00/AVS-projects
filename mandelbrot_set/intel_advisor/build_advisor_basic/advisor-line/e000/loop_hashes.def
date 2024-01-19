@@ -1,0 +1,13 @@
+# hash file version: 3
+1	7	/home/xmihol00/proj01/build_advisor/mandelbrot	29992	30282	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	33	290	aba7ff230ad5572c9a668ab74470249c	1	2	0	0	0
+2	9	/home/xmihol00/proj01/build_advisor/mandelbrot	29931	30438	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	30	514	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+3	10	/home/xmihol00/proj01/build_advisor/mandelbrot	32280	32452	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	406	172	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+4	12	/home/xmihol00/proj01/build_advisor/mandelbrot	32221	32697	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	400	484	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+5	13	/home/xmihol00/proj01/build_advisor/mandelbrot	32178	32736	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	395	566	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+6	14	/home/xmihol00/proj01/build_advisor/mandelbrot	32862	33196	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	432	334	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+7	17	/home/xmihol00/proj01/build_advisor/mandelbrot	30320		/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	33	107	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+8	18	/home/xmihol00/proj01/build_advisor/mandelbrot	32529		/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	406	145	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+9	19	/home/xmihol00/proj01/build_advisor/mandelbrot	33288		/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	432	63	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+10	25	/home/xmihol00/proj01/build_advisor/mandelbrot	29992	30282,30427	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	33	397	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+11	26	/home/xmihol00/proj01/build_advisor/mandelbrot	32280	32452,32674	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	406	317	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+12	27	/home/xmihol00/proj01/build_advisor/mandelbrot	32862	33196,33351	/home/xmihol00/proj01/calculators/LineMandelCalculator.cc	432	397	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0

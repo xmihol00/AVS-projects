@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc"
+           line_no="35"
+           routine="BatchMandelCalculator::BatchMandelCalculator"
+           is_vectorized="1"
+           self_time="1.500067E-01"
+           total_time="1.500067E-01"
+           trip_counts="12582912"
+           func_instance="38"
+           confidence="1"
+           efficiency="8.554612E+01"
+           referenceEfficiency="1.250000E+01"
+           priority="0"/>
+  <hotspot filename="/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc"
+           line_no="225"
+           routine="BatchMandelCalculator::calculate&lt;(int)4096, (int)100&gt;"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="4.999514E-02"
+           trip_counts="1220"
+           func_instance="18"
+           priority="0"/>
+  <hotspot filename="/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc"
+           line_no="209"
+           routine="BatchMandelCalculator::calculate&lt;(int)4096, (int)100&gt;"
+           is_vectorized="1"
+           self_time="1.999765E-02"
+           total_time="3.999867E-02"
+           trip_counts="768"
+           func_instance="10"
+           priority="0"/>
+  <hotspot filename="/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc"
+           line_no="204"
+           routine="BatchMandelCalculator::calculate&lt;(int)4096, (int)100&gt;"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.999867E-02"
+           trip_counts="2380"
+           func_instance="12"
+           priority="0"/>
+  <hotspot filename="/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc"
+           line_no="239"
+           routine="BatchMandelCalculator::calculate&lt;(int)4096, (int)100&gt;"
+           is_vectorized="1"
+           self_time="0.000000E+00"
+           total_time="3.999646E-02"
+           trip_counts="378"
+           func_instance="19"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

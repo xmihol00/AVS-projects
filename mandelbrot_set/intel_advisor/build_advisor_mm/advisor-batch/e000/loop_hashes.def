@@ -1,0 +1,8 @@
+# hash file version: 3
+1	7	/home/xmihol00/proj01/build_advisor/mandelbrot	24176	24191	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	35	15	012b9cc209b3d18cf70615679aa7f095	1	1	0	0	0
+2	9	/home/xmihol00/proj01/build_advisor/mandelbrot	25536	25702	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	686	166	012b9cc209b3d18cf70615679aa7f095	0	1	0	0	0
+3	11	/home/xmihol00/proj01/build_advisor/mandelbrot	25499	25731	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	682	232	012b9cc209b3d18cf70615679aa7f095	0	1	0	0	0
+4	12	/home/xmihol00/proj01/build_advisor/mandelbrot	25598	25667	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	694	69	012b9cc209b3d18cf70615679aa7f095	1	1	0	0	0
+5	14	/home/xmihol00/proj01/build_advisor/mandelbrot	24130		/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	35	12	012b9cc209b3d18cf70615679aa7f095	0	1	0	0	0
+6	15	/home/xmihol00/proj01/build_advisor/mandelbrot	24208	24223	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	35	15	012b9cc209b3d18cf70615679aa7f095	0	1	0	0	0
+7	21	/home/xmihol00/proj01/build_advisor/mandelbrot	24130	24142,24191,24223	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	35	42	012b9cc209b3d18cf70615679aa7f095	1	1	0	0	0

@@ -1,0 +1,17 @@
+-r
+/home/xmihol00/proj01/build_advisor/advisor-batch/e000/trc000
+-quiet
+-cs-file
+/home/xmihol00/proj01/build_advisor/advisor-batch/e000/callstacks.def
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int
+--jit-profiling
+--gpu-carm
+--target-gpu=none
+--
+./mandelbrot
+-c
+batch
+-s
+4096

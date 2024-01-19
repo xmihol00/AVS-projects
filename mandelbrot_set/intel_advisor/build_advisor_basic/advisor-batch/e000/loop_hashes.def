@@ -1,0 +1,19 @@
+# hash file version: 3
+1	7	/home/xmihol00/proj01/build_advisor/mandelbrot	24142	24157	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	35	15	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+2	9	/home/xmihol00/proj01/build_advisor/mandelbrot	24630	24865	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	48	235	aba7ff230ad5572c9a668ab74470249c	1	2	0	0	0
+3	10	/home/xmihol00/proj01/build_advisor/mandelbrot	24343	25023	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	45	688	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+4	11	/home/xmihol00/proj01/build_advisor/mandelbrot	27474	27644	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	741	170	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+5	13	/home/xmihol00/proj01/build_advisor/mandelbrot	27415	27898,29381,29371,27898	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	735	491	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+6	14	/home/xmihol00/proj01/build_advisor/mandelbrot	27358	27938	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	732	608	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+7	15	/home/xmihol00/proj01/build_advisor/mandelbrot	27312	27959	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	727	675	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+8	16	/home/xmihol00/proj01/build_advisor/mandelbrot	28073	28400	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	732	327	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+9	19	/home/xmihol00/proj01/build_advisor/mandelbrot	24098		/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	35	12	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+10	20	/home/xmihol00/proj01/build_advisor/mandelbrot	24174	24189	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	35	15	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+11	21	/home/xmihol00/proj01/build_advisor/mandelbrot	24512		/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	48	67	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+12	22	/home/xmihol00/proj01/build_advisor/mandelbrot	24928		/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	48	74	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+13	23	/home/xmihol00/proj01/build_advisor/mandelbrot	27720		/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	741	145	aba7ff230ad5572c9a668ab74470249c	0	1	0	0	0
+14	28	/home/xmihol00/proj01/build_advisor/mandelbrot	28853		/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	732	325	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+15	30	/home/xmihol00/proj01/build_advisor/mandelbrot	24098	24110,24157,24189	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	35	42	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+16	31	/home/xmihol00/proj01/build_advisor/mandelbrot	24512	24579,24865,25002	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	48	376	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+17	32	/home/xmihol00/proj01/build_advisor/mandelbrot	28073	28400,29178	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	732	652	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0
+18	33	/home/xmihol00/proj01/build_advisor/mandelbrot	27474	27644,27865	/home/xmihol00/proj01/calculators/BatchMandelCalculator.cc	741	315	aba7ff230ad5572c9a668ab74470249c	1	1	0	0	0

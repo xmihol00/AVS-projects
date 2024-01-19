@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2023/11/02 19:53:53</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/xmihol00/proj01/build_advisor/advisor-ref/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/home/xmihol00/proj01/build_advisor/mandelbrot</arg>
+  <arg>678106</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:08 2023</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:08 2023</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/xmihol00/proj01/build_advisor/mandelbrot</arg>
+  <arg>0x400000</arg>
+  <arg>0x4c297f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:08 2023</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x1504f43f6000</arg>
+  <arg>0x1504f46241cf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:08 2023</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x1504f4620000</arg>
+  <arg>0x1504f4620f5c</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:08 2023</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/apps/all/zlib/1.2.12-GCCcore-11.3.0/lib/libz.so.1</arg>
+  <arg>0x1504dd188000</arg>
+  <arg>0x1504dd1a0180</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:08 2023</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/apps/all/GCCcore/11.3.0/lib64/libstdc++.so.6</arg>
+  <arg>0x1504dcf01000</arg>
+  <arg>0x1504dd12d1bf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:09 2023</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <arg>0x1504dcb4c000</arg>
+  <arg>0x1504dcecd13f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:09 2023</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/apps/all/GCCcore/11.3.0/lib64/libgcc_s.so.1</arg>
+  <arg>0x1504dcb32000</arg>
+  <arg>0x1504dcb4b447</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:09 2023</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <arg>0x1504dc76d000</arg>
+  <arg>0x1504dcb3173f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:09 2023</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <arg>0x1504dc569000</arg>
+  <arg>0x1504dc76c12f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:09 2023</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/xmihol00/proj01/build_advisor/mandelbrot</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="19" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="20" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/apps/all/zlib/1.2.12-GCCcore-11.3.0/lib/libz.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="21" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/apps/all/GCCcore/11.3.0/lib64/libstdc++.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="22" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="23" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/apps/all/GCCcore/11.3.0/lib64/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="24" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="25" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="26" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/home/xmihol00/proj01/build_advisor/mandelbrot</arg>
+  <arg>678106</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Nov  2 18:54:36 2023</timestamp>
+</msg>
+<msg id="27" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="28" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/xmihol00/proj01/build_advisor/advisor-ref/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="29" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="30" tool="runtool">
+  <type>log-end</type>
+  <arg>2023/11/02 19:54:40</arg>
+</msg>
+
+</log>
+

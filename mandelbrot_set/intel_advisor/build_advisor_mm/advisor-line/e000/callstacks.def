@@ -1,0 +1,306 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	     22272	    0	      0	                                  _start	/home/xmihol00/proj01/build_advisor/mandelbrot	22272	47	0	4	0	0	0	0	0	0	0	0
+         2	        -1	     22317	    0	      0	                                  _start	/home/xmihol00/proj01/build_advisor/mandelbrot	22272	47	0	4	0	0	0	0	0	0	0	0
+         3	        94	    144530	    1	      1	     [Loop@0x23404 in __libc_start_main]	/lib64/libc.so.6	144388,144632	230,102	0	1	0	0	0	0	0	0	0	0
+         4	        96	    344043	    0	      0	evaluateCalculator<LineMandelCalculator>	/home/xmihol00/proj01/build_advisor/mandelbrot	344018,344037,347634,347828	15,656,13,342	0	5	0	1	0	0	0	0	0	0
+         5	       100	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+         6	       105	     27205	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+         7	       110	     27427	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+         8	       115	     27270	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+         9	       120	     27359	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+        10	       125	     27258	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+        11	       130	     27393	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+        12	       135	     27296	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+        13	       140	     27309	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+        14	       145	     27400	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+        15	       150	     27369	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+        16	       155	     27263	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+        17	        96	    344086	    0	      0	evaluateCalculator<LineMandelCalculator>	/home/xmihol00/proj01/build_advisor/mandelbrot	344018,344037,347634,347828	15,656,13,342	0	5	0	1	0	0	0	0	0	0
+        18	       164	    118012	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        19	       164	    118030	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        20	       164	    118160	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        21	       164	    118023	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        22	       164	    118062	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        23	       164	    118016	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        24	       164	    118118	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        25	       164	    118043	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        26	       164	    118137	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        27	       164	    118068	    1	      0	[Loop at line 94 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118005	172	118177	10	0	0	0	0	0	0	0	0
+        28	       187	    118625	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        29	       187	    118870	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        30	       187	    118849	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        31	       187	    118512	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        32	       187	    118595	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        33	       187	    118779	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        34	       187	    118806	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        35	       187	    118773	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        36	       187	    118498	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        37	       187	    118563	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        38	       187	    118518	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        39	       187	    118760	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        40	       187	    118864	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        41	       187	    118696	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        42	       187	    118767	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        43	       187	    118524	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        44	       187	    118714	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        45	       187	    118708	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        46	       187	    118895	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        47	       187	    118740	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        48	       187	    118570	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        49	       187	    118689	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        50	       187	    118678	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        51	       187	    118824	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        52	       187	    118662	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        53	       187	    118733	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        54	       187	    118753	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        55	       187	    118702	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        56	       187	    118577	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        57	       187	    118613	    1	      0	[Loop at line 127 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118474	486	118960	15	0	0	0	0	0	0	0	0
+        58	       250	    119775	    1	      0	[Loop at line 173 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119713	506	120219	18	0	0	0	0	0	0	0	0
+        59	       253	    119200	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        60	       253	    119226	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        61	       250	    120164	    1	      0	[Loop at line 173 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119713	506	120219	18	0	0	0	0	0	0	0	0
+        62	       253	    119233	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        63	       253	    119603	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        64	       253	    119627	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        65	       253	    119508	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        66	       250	    119874	    1	      0	[Loop at line 173 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119713	506	120219	18	0	0	0	0	0	0	0	0
+        67	       253	    119558	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        68	       250	    119968	    1	      0	[Loop at line 173 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119713	506	120219	18	0	0	0	0	0	0	0	0
+        69	       250	    119763	    1	      0	[Loop at line 173 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119713	506	120219	18	0	0	0	0	0	0	0	0
+        70	       253	    119521	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        71	       253	    119212	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        72	       253	    119420	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        73	       253	    119487	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        74	       250	    119881	    1	      0	[Loop at line 173 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119713	506	120219	18	0	0	0	0	0	0	0	0
+        75	       253	    119540	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        76	       253	    119219	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        77	       253	    119322	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        78	       253	    119552	    1	      0	[Loop at line 157 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119193	493	119686	21	0	0	0	0	0	0	0	0
+        79	       294	    122951	    1	      0	[Loop at line 196 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	120569	3650	124219	22	0	0	0	0	0	0	0	0
+        80	        79	    502703	    0	      0	               __intel_skx_avx512_memcpy	/home/xmihol00/proj01/build_advisor/mandelbrot	502016	2064	0	23	0	0	0	0	0	0	0	0
+        81	       294	    121886	    1	      0	[Loop at line 196 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	120569	3650	124219	22	0	0	0	0	0	0	0	0
+        82	        81	    502703	    0	      0	               __intel_skx_avx512_memcpy	/home/xmihol00/proj01/build_advisor/mandelbrot	502016	2064	0	23	0	0	0	0	0	0	0	0
+        83	       294	    123405	    1	      0	[Loop at line 196 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	120569	3650	124219	22	0	0	0	0	0	0	0	0
+        84	        83	    502703	    0	      0	               __intel_skx_avx512_memcpy	/home/xmihol00/proj01/build_advisor/mandelbrot	502016	2064	0	23	0	0	0	0	0	0	0	0
+        85	       294	    121847	    1	      0	[Loop at line 196 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	120569	3650	124219	22	0	0	0	0	0	0	0	0
+        86	        85	    502703	    0	      0	               __intel_skx_avx512_memcpy	/home/xmihol00/proj01/build_advisor/mandelbrot	502016	2064	0	23	0	0	0	0	0	0	0	0
+        87	        96	    344692	    0	      0	evaluateCalculator<LineMandelCalculator>	/home/xmihol00/proj01/build_advisor/mandelbrot	344018,344037,347634,347828	15,656,13,342	0	5	0	1	0	0	0	0	0	0
+        88	        87	     28959	    0	      0	LineMandelCalculator::~LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	28944	96	0	24	0	0	0	0	0	0	0	0
+        89	        88	   1013675	    0	      1	                                  munmap	/lib64/libc.so.6	1013664	37	0	3	0	0	0	0	0	0	0	0
+        90	        87	     28971	    0	      0	LineMandelCalculator::~LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	28944	96	0	24	0	0	0	0	0	0	0	0
+        91	        90	   1013675	    0	      1	                                  munmap	/lib64/libc.so.6	1013664	37	0	3	0	0	0	0	0	0	0	0
+        92	        87	     28983	    0	      0	LineMandelCalculator::~LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	28944	96	0	24	0	0	0	0	0	0	0	0
+        93	        92	   1013675	    0	      1	                                  munmap	/lib64/libc.so.6	1013664	37	0	3	0	0	0	0	0	0	0	0
+        94	         2	    144388	    0	      1	                       __libc_start_main	/lib64/libc.so.6	144288	446	0	2	0	0	0	0	0	0	0	0
+        95	         2	    144530	    0	      1	                       __libc_start_main	/lib64/libc.so.6	144288	446	0	2	0	0	0	0	0	0	0	0
+        96	         3	    344018	    0	      0	                                    main	/home/xmihol00/proj01/build_advisor/mandelbrot	335088	17696	0	6	0	0	0	0	0	0	0	0
+        97	         3	    344043	    0	      0	                                    main	/home/xmihol00/proj01/build_advisor/mandelbrot	335088	17696	0	6	0	0	0	0	0	0	0	0
+        98	         4	     27099	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+        99	        98	     27160	    1	      0	[Loop at line 30 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27099,27734	507,7	27606	9	0	0	0	0	0	0	0	0
+       100	        99	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       101	         4	     27302	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       102	       100	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       103	       100	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       104	       100	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       105	        99	     27205	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       106	         4	     27205	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       107	       105	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       108	       105	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       109	       105	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       110	        99	     27427	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       111	         4	     27427	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       112	       110	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       113	       110	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       114	       110	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       115	        99	     27270	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       116	         4	     27270	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       117	       115	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       118	       115	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       119	       115	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       120	        99	     27359	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       121	         4	     27359	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       122	       120	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       123	       120	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       124	       120	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       125	        99	     27258	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       126	         4	     27258	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       127	       125	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       128	       125	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       129	       125	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       130	        99	     27393	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       131	         4	     27393	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       132	       130	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       133	       130	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       134	       130	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       135	        99	     27296	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       136	         4	     27296	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       137	       135	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       138	       135	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       139	       135	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       140	        99	     27309	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       141	         4	     27309	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       142	       140	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       143	       140	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       144	       140	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       145	        99	     27400	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       146	         4	     27400	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       147	       145	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       148	       145	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       149	       145	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       150	        99	     27369	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       151	         4	     27369	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       152	       150	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       153	       150	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       154	       150	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       155	        99	     27263	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160,27488	290,107	27450,27595	26	0	0	0	0	0	0	0	0
+       156	         4	     27263	    0	      0	LineMandelCalculator::LineMandelCalculator	/home/xmihol00/proj01/build_advisor/mandelbrot	26672	1136	0	8	0	0	0	0	0	0	0	0
+       157	       155	     27302	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       158	       155	     27161	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27160	290	27450	7	0	0	0	0	0	0	0	0
+       159	       155	     27489	    1	      0	[Loop at line 33 in LineMandelCalculator::LineMandelCalculator]	/home/xmihol00/proj01/build_advisor/mandelbrot	27488	107	0	25	0	0	0	0	0	0	0	0
+       160	         3	    344086	    0	      0	                                    main	/home/xmihol00/proj01/build_advisor/mandelbrot	335088	17696	0	6	0	0	0	0	0	0	0	0
+       161	        17	     36002	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       162	       161	    117932	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       163	       162	    117981	    1	      0	[Loop at line 83 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	117932	348	118280	14	0	0	0	0	0	0	0	0
+       164	       163	    118005	    1	      0	[Loop at line 87 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	117981	270	118251	13	0	0	0	0	0	0	0	0
+       165	       161	    118012	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       166	        17	    118012	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       167	       161	    118030	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       168	        17	    118030	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       169	       161	    118160	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       170	        17	    118160	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       171	       161	    118023	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       172	        17	    118023	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       173	       161	    118062	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       174	        17	    118062	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       175	       161	    118016	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       176	        17	    118016	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       177	       161	    118118	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       178	        17	    118118	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       179	       161	    118043	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       180	        17	    118043	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       181	       161	    118137	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       182	        17	    118137	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       183	       161	    118068	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       184	        17	    118068	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       185	       161	    118383	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       186	       185	    118438	    1	      0	[Loop at line 118 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118383	646	119029	17	0	0	0	0	0	0	0	0
+       187	       186	    118474	    1	      0	[Loop at line 122 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	118438	533	118971	16	0	0	0	0	0	0	0	0
+       188	       161	    118625	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       189	        17	    118625	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       190	       161	    118870	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       191	        17	    118870	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       192	       161	    118849	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       193	        17	    118849	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       194	       161	    118512	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       195	        17	    118512	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       196	       161	    118595	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       197	        17	    118595	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       198	       161	    118779	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       199	        17	    118779	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       200	       161	    118806	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       201	        17	    118806	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       202	       161	    118773	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       203	        17	    118773	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       204	       161	    118498	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       205	        17	    118498	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       206	       161	    118563	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       207	        17	    118563	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       208	       161	    118518	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       209	        17	    118518	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       210	       161	    118760	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       211	        17	    118760	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       212	       161	    118864	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       213	        17	    118864	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       214	       161	    118696	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       215	        17	    118696	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       216	       161	    118767	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       217	        17	    118767	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       218	       161	    118524	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       219	        17	    118524	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       220	       161	    118714	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       221	        17	    118714	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       222	       161	    118708	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       223	        17	    118708	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       224	       161	    118895	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       225	        17	    118895	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       226	       161	    118740	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       227	        17	    118740	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       228	       161	    118570	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       229	        17	    118570	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       230	       161	    118689	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       231	        17	    118689	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       232	       161	    118678	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       233	        17	    118678	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       234	       161	    118824	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       235	        17	    118824	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       236	       161	    118662	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       237	        17	    118662	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       238	       161	    118733	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       239	        17	    118733	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       240	       161	    118753	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       241	        17	    118753	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       242	       161	    118702	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       243	        17	    118702	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       244	       161	    118577	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       245	        17	    118577	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       246	       161	    118613	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       247	        17	    118613	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       248	       161	    119102	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       249	       248	    119157	    1	      0	[Loop at line 148 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119102	1164	120266	20	0	0	0	0	0	0	0	0
+       250	       249	    119713	    1	      0	[Loop at line 152 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119157	1073	120230	19	0	0	0	0	0	0	0	0
+       251	       161	    119775	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       252	        17	    119775	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       253	       249	    119193	    1	      0	[Loop at line 152 in LineMandelCalculator::calculate<(int)4096, (int)100>]	/home/xmihol00/proj01/build_advisor/mandelbrot	119157	1073	120230	19	0	0	0	0	0	0	0	0
+       254	       161	    119200	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       255	        17	    119200	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       256	       161	    119226	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       257	        17	    119226	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       258	       161	    120164	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       259	        17	    120164	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       260	       161	    119233	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       261	        17	    119233	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       262	       161	    119603	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       263	        17	    119603	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       264	       161	    119627	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       265	        17	    119627	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       266	       161	    119508	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       267	        17	    119508	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       268	       161	    119874	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       269	        17	    119874	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       270	       161	    119558	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       271	        17	    119558	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       272	       161	    119968	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       273	        17	    119968	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       274	       161	    119763	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       275	        17	    119763	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       276	       161	    119521	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       277	        17	    119521	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       278	       161	    119212	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       279	        17	    119212	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       280	       161	    119420	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       281	        17	    119420	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       282	       161	    119487	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       283	        17	    119487	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       284	       161	    119881	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       285	        17	    119881	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       286	       161	    119540	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       287	        17	    119540	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       288	       161	    119219	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       289	        17	    119219	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       290	       161	    119322	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       291	        17	    119322	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       292	       161	    119552	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       293	        17	    119552	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       294	       161	    120569	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       295	       161	    122951	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       296	        17	    122951	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       297	       161	    121886	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       298	        17	    121886	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       299	       161	    123405	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       300	        17	    123405	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       301	       161	    121847	    0	      0	LineMandelCalculator::calculate<(int)4096, (int)100>	/home/xmihol00/proj01/build_advisor/mandelbrot	36002,40319,117832	6,6,6390	0	11	0	1	0	0	0	0	0	0
+       302	        17	    121847	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/xmihol00/proj01/build_advisor/mandelbrot	29136	95104	0	12	0	0	0	0	0	0	0	0
+       303	         3	    344692	    0	      0	                                    main	/home/xmihol00/proj01/build_advisor/mandelbrot	335088	17696	0	6	0	0	0	0	0	0	0	0
+       304	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	28	0	0	0	0	0	0	0	0

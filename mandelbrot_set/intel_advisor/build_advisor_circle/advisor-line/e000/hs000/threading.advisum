@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/xmihol00/proj01/calculators/LineMandelCalculator.cc"
+           line_no="30"
+           routine="LineMandelCalculator::LineMandelCalculator"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="5.600195E-01"
+           trip_counts="8192"
+           func_instance="9"
+           priority="0"/>
+  <hotspot filename="/home/xmihol00/proj01/calculators/LineMandelCalculator.cc"
+           line_no="33"
+           routine="LineMandelCalculator::LineMandelCalculator"
+           is_vectorized="1"
+           self_time="5.600195E-01"
+           total_time="5.600195E-01"
+           trip_counts="768"
+           func_instance="26"
+           confidence="1"
+           efficiency="1.208005E+02"
+           referenceEfficiency="1.250000E+01"
+           priority="0"/>
+  <hotspot filename="/home/xmihol00/proj01/calculators/LineMandelCalculator.cc"
+           line_no="127"
+           routine="LineMandelCalculator::calculate&lt;(int)4096, (int)100&gt;"
+           is_vectorized="1"
+           self_time="4.500030E-01"
+           total_time="4.500030E-01"
+           trip_counts="192"
+           func_instance="15"
+           confidence="1"
+           efficiency="2.054688E+01"
+           referenceEfficiency="1.562500E+00"
+           priority="0"/>
+  <hotspot filename="/home/xmihol00/proj01/calculators/LineMandelCalculator.cc"
+           line_no="118"
+           routine="LineMandelCalculator::calculate&lt;(int)4096, (int)100&gt;"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="4.500030E-01"
+           trip_counts="1320"
+           func_instance="17"
+           priority="0"/>
+  <hotspot filename="/home/xmihol00/proj01/calculators/LineMandelCalculator.cc"
+           line_no="122"
+           routine="LineMandelCalculator::calculate&lt;(int)4096, (int)100&gt;"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="4.500030E-01"
+           trip_counts="100"
+           func_instance="16"
+           priority="0"/>
+</IntelParallelAdvisorSummary >
