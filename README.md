@@ -1,5 +1,5 @@
 # AVS-projects
-Vectorization and parallelization projects to Computation Systems Architectures course at FIT BUT using OpenMP and `_mm512` instructions.
+Vectorization and parallelization projects to Computation Systems Architectures course at FIT BUT using **OpenMP** and `_mm512` instructions.
 
 ## Mandelbrot Set
 The 1st task was to optimize the computation of a mandelbrot set on a 2:3 plane. The optimization using `_mm512` instructions was the fastest solution of the whole course. Overall the solution scored 10/10 points plus a bonus point for an especially thoughtful implementation.
